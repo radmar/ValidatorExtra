@@ -6,7 +6,7 @@
         }
      ],
     "description": "Extra validators for Symfony 2.x",
-    "license": "BSD",
+    "license": "MIT",
     "name": "medzin/ValidatorExtra",
     "require": {
         "php": ">=5.3.2",
