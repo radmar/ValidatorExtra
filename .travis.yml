@@ -7,3 +7,8 @@ php:
 before_script:
     - curl -s http://getcomposer.org/installer | php
     - php composer.phar --dev install
+
+notifications:
+    email:
+        recepients:
+            - adam.medzinski@hotmail.com
