@@ -9,7 +9,7 @@ class PESELValidator extends ConstraintValidator
 {
     public function isValid($value, Constraint $constraint)
     {
-        if (empty($value)) {
+        if ($value === '' || $value === null) {
             return true;
         }
 
