@@ -11,7 +11,7 @@ class NIPValidatorTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->validator = new NipValidator();
+        $this->validator = new NIPValidator();
     }
 
     public function getInvalidNips()

@@ -11,7 +11,7 @@ class RegonValidatorTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->validator = new RegonValidator();
+        $this->validator = new REGONValidator();
     }
 
     public function getInvalidRegons()
